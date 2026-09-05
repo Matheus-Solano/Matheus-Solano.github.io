@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matheus Solano · Advogado · IA para advogados</title>
+<meta name="description" content="Matheus Solano, advogado em Volta Redonda (OAB/RJ 225.124), sócio do Solano, Neves & Novaes Advocacia e criador do Método Solano. Advocacia patrimonial, empresarial e médica e treinamento de IA para advogados.">
+<link rel="canonical" href="https://matheus-solano.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Matheus Solano · Advogado">
+<meta property="og:description" content="Advocacia patrimonial, empresarial e médica em Volta Redonda e treinamento de IA para advogados.">
+<meta property="og:url" content="https://matheus-solano.github.io/">
+<meta property="og:image" content="https://matheus-solano.github.io/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F4F1EC">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F4F1EC'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='34' text-anchor='middle' fill='%236E1F2A'%3EMS%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Matheus Solano",
+  "jobTitle": "Advogado",
+  "email": "mailto:matheus@snn.adv.br",
+  "telephone": "+55-24-99847-7716",
+  "worksFor": {"@type": "LegalService", "name": "Solano, Neves & Novaes Advocacia", "address": {"@type": "PostalAddress", "addressLocality": "Volta Redonda", "addressRegion": "RJ", "addressCountry": "BR"}},
+  "address": {"@type": "PostalAddress", "addressLocality": "Volta Redonda", "addressRegion": "RJ", "addressCountry": "BR"},
+  "sameAs": ["https://www.instagram.com/matheus.solano_/", "https://www.linkedin.com/in/matheus-solano-advocacia", "https://matheussolano.substack.com/"],
+  "url": "https://matheus-solano.github.io/"
+}
+</script>
+<style>
+  :root {
+    --creme: #F4F1EC;
+    --papel: #FFFFFF;
+    --tinta: #1A1A1A;
+    --apagado: #6B665F;
+    --fio: #CFC9BE;
+    --vinho: #6E1F2A;
+    --vinho-escuro: #4B1119;
+    --escuro: #121212;
+    --claro: #F5F1EA;
+    --apagado-escuro: #B7B0A4;
+    --acento-escuro: #D9A79F;
+    --fio-escuro: #3A3A3A;
+    --display: 'Cormorant Garamond', Garamond, 'Times New Roman', serif;
+    --texto: 'Lora', Georgia, 'Times New Roman', serif;
+    --margem: 22px;
+    --largura: 1120px;
+    --trilho: 56px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--creme);
+    color: var(--tinta);
+    font-family: var(--texto);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { display: block; max-width: 100%; height: auto; }
+  a { color: inherit; text-decoration: none; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--vinho); outline-offset: 4px; }
+  h1, h2, h3, p, ul, figure { margin: 0; }
+  ul { padding: 0; list-style: none; }
+
+  .eyebrow {
+    font-family: var(--texto);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--apagado);
+  }
+  .eyebrow--vinho { color: var(--vinho); }
+
+  /* Trilho */
+  .trilho {
+    position: sticky; top: 0; z-index: 10;
+    height: var(--trilho);
+    background: rgba(244, 241, 236, 0.92);
+    -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--fio);
+  }
+  .trilho__in {
+    max-width: var(--largura); margin: 0 auto; padding: 0 var(--margem);
+    height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  }
+  .trilho__nome {
+    display: none;
+    font-family: var(--texto); font-size: 11px; font-weight: 500;
+    letter-spacing: 0.28em; text-transform: uppercase; white-space: nowrap;
+  }
+  .trilho__nav { display: flex; gap: 12px; flex: 1; justify-content: space-between; overflow-x: auto; scrollbar-width: none; }
+  .trilho__nav::-webkit-scrollbar { display: none; }
+  .trilho__nav a {
+    font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--apagado); padding: 6px 0 4px; border-bottom: 2px solid transparent; white-space: nowrap;
+    transition: color .2s, border-color .2s;
+  }
+  .trilho__nav a:hover { color: var(--tinta); }
+  .trilho__nav a.ativo { color: var(--vinho); border-bottom-color: var(--vinho); }
+
+  /* Seções */
+  .sec { padding: 64px var(--margem); }
+  .sec__in { max-width: var(--largura); margin: 0 auto; }
+  .sec__cab { display: flex; align-items: baseline; gap: 16px; margin-bottom: 28px; }
+  .sec__cab::after { content: ""; flex: 1; height: 1px; background: var(--fio); }
+  .sec--escura { background: var(--escuro); color: var(--claro); }
+  .sec--escura .eyebrow { color: var(--acento-escuro); }
+  .sec--escura .sec__cab::after { background: var(--fio-escuro); }
+
+  /* Herói */
+  .heroi { padding: 40px var(--margem) 56px; }
+  .heroi__in {
+    max-width: var(--largura); margin: 0 auto; display: grid; gap: 28px;
+    grid-template-areas: "topo" "foto" "resto";
+  }
+  .heroi__topo { grid-area: topo; }
+  .heroi__foto { grid-area: foto; }
+  .heroi__resto { grid-area: resto; }
+  .heroi h1 {
+    font-family: var(--display); font-weight: 500;
+    font-size: clamp(64px, 18vw, 132px); line-height: 0.92; letter-spacing: -0.015em;
+    margin: 14px 0 0;
+  }
+  .heroi__foto { position: relative; margin: 0 12px 12px 0; }
+  .heroi__foto img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+  .heroi__foto::after {
+    content: ""; position: absolute; inset: 0; transform: translate(12px, 12px);
+    border: 1px solid var(--vinho); pointer-events: none;
+  }
+  .lede { font-size: 19px; line-height: 1.55; max-width: 34em; }
+  .lede em { font-style: italic; }
+  .portas { margin-top: 28px; border-top: 1px solid var(--fio); }
+  .porta {
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    padding: 16px 0; border-bottom: 1px solid var(--fio);
+    font-family: var(--display); font-weight: 600; font-size: 28px; line-height: 1.1;
+    transition: color .2s;
+  }
+  .porta__fio { flex: 0 0 28px; height: 1px; background: var(--vinho); transition: flex-basis .25s ease; }
+  .porta:hover, .porta:focus-visible { color: var(--vinho); }
+  .porta:hover .porta__fio { flex-basis: 56px; }
+  .heroi__acoes { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center; }
+
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+    background: var(--vinho); color: var(--creme);
+    font-family: var(--texto); font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+    padding: 16px 24px; border-radius: 2px; transition: background .2s;
+  }
+  .btn:hover { background: var(--vinho-escuro); }
+  .btn svg { width: 16px; height: 16px; fill: currentColor; }
+  .sec--escura .btn { background: var(--claro); color: var(--escuro); }
+  .sec--escura .btn:hover { background: #fff; }
+  .link {
+    font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+    border-bottom: 1px solid currentColor; padding-bottom: 2px;
+  }
+  .link:hover { color: var(--vinho); }
+  .sec--escura .link:hover { color: var(--acento-escuro); }
+
+  /* Sobre */
+  .sobre__grid { display: grid; gap: 36px; }
+  .sobre__txt p + p { margin-top: 1.1em; }
+  .sobre__txt strong { font-weight: 600; }
+  .link-texto { color: var(--vinho); border-bottom: 1px solid var(--fio); transition: border-color .2s; }
+  .link-texto:hover { border-bottom-color: var(--vinho); }
+  .ficha { border-top: 1px solid var(--fio); padding-top: 18px; }
+  .ficha li { padding: 12px 0; border-bottom: 1px solid var(--fio); font-size: 15px; line-height: 1.45; }
+  .ficha b { display: block; font-family: var(--display); font-weight: 600; font-size: 20px; line-height: 1.15; }
+  .ficha span { color: var(--apagado); }
+
+  /* Atuação */
+  .cartoes { display: grid; gap: 20px; }
+  .cartao {
+    border: 1px solid var(--fio-escuro); padding: 28px 24px 30px;
+    display: flex; flex-direction: column; gap: 14px;
+    scroll-margin-top: calc(var(--trilho) + 24px);
+  }
+  .cartao h2 { font-family: var(--display); font-weight: 500; font-size: 40px; line-height: 1.05; }
+  .cartao p { color: var(--claro); }
+  .cartao p.formatos { color: var(--apagado-escuro); font-size: 15px; }
+  .cartao .acoes { margin-top: auto; padding-top: 12px; display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center; }
+
+  /* Escritório */
+  .galeria { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 0 calc(-1 * var(--margem)); padding: 0 var(--margem); scrollbar-width: none; }
+  .galeria::-webkit-scrollbar { display: none; }
+  .galeria figure { flex: 0 0 82%; scroll-snap-align: start; }
+  .galeria img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+  .legenda { margin-top: 16px; font-size: 13px; color: var(--apagado); }
+
+  /* Contato */
+  .contato h2 { font-family: var(--display); font-weight: 500; font-size: clamp(40px, 9vw, 64px); line-height: 1; margin-bottom: 24px; }
+  .canais { border-top: 1px solid var(--fio); }
+  .canais li { border-bottom: 1px solid var(--fio); }
+  .canais a { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 18px 0; transition: color .2s; }
+  .canais a:hover { color: var(--vinho); }
+  .canais .canal { font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--apagado); flex: 0 0 auto; }
+  .canais .valor { font-family: var(--display); font-weight: 500; font-size: 26px; line-height: 1.1; text-align: right; overflow-wrap: anywhere; }
+
+  .rodape { background: var(--escuro); color: var(--apagado-escuro); padding: 28px var(--margem); }
+  .rodape__in { max-width: var(--largura); margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; }
+
+  /* Entrada */
+  @keyframes subir { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+  .heroi .entra { animation: subir .7s ease both; }
+  .heroi h1.entra { animation-delay: .08s; }
+  .heroi__foto.entra { animation-delay: .16s; }
+  .heroi__resto.entra { animation-delay: .28s; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .heroi .entra { animation: none; }
+    * { transition: none !important; }
+  }
+
+  @media (min-width: 900px) {
+    :root { --margem: 40px; }
+    .sec { padding: 96px var(--margem); }
+    .trilho__nome { display: block; }
+    .trilho__nav { flex: 0 1 auto; gap: 22px; }
+    .trilho__nav a { font-size: 11px; letter-spacing: 0.16em; }
+    .heroi { padding: 56px var(--margem) 88px; }
+    .heroi__in {
+      grid-template-columns: 1.15fr 0.85fr; grid-template-rows: auto auto; column-gap: 64px; row-gap: 24px;
+      grid-template-areas: "topo foto" "resto foto"; align-items: start;
+    }
+    .heroi__foto { align-self: center; }
+    .heroi h1 { font-size: clamp(96px, 9.5vw, 132px); }
+    .porta { font-size: 34px; padding: 20px 0; }
+    .sobre__grid { grid-template-columns: 1.4fr 0.8fr; gap: 72px; align-items: start; }
+    .ficha { border-top: 0; padding-top: 4px; }
+    .cartoes { grid-template-columns: 1fr 1fr; gap: 28px; }
+    .cartao { padding: 40px 36px 40px; }
+    .cartao h2 { font-size: 46px; }
+    .galeria { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 16px; margin: 0; padding: 0; overflow: visible; }
+    .galeria figure { flex: none; }
+    .galeria figure:first-child { grid-row: 1 / 3; }
+    .galeria figure:first-child img { aspect-ratio: 3 / 4; height: 100%; }
+    .galeria figure:nth-child(2), .galeria figure:nth-child(3) { grid-column: 2 / 4; }
+    .galeria figure:nth-child(2) img, .galeria figure:nth-child(3) img { aspect-ratio: 3 / 1.05; }
+    .contato__grid { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 72px; align-items: start; }
+    .contato h2 { margin-bottom: 0; }
+    .canais .valor { font-size: 30px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="trilho">
+  <div class="trilho__in">
+    <a class="trilho__nome" href="#topo">Matheus Solano</a>
+    <nav class="trilho__nav" aria-label="Seções">
+      <a href="#sobre">Sobre</a>
+      <a href="#advocacia">Advocacia</a>
+      <a href="#treinamento">Treinamento</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+
+  <section class="heroi">
+    <div class="heroi__in">
+      <div class="heroi__topo">
+        <p class="eyebrow entra">Advogado · OAB/RJ 225.124 · Volta Redonda</p>
+        <h1 class="entra">Matheus<br>Solano</h1>
+      </div>
+      <figure class="heroi__foto entra">
+        <picture>
+          <source type="image/webp" srcset="img/retrato-720.webp 720w, img/retrato-1200.webp 1200w" sizes="(min-width: 900px) 40vw, 100vw">
+          <img src="img/retrato-1200.jpg" srcset="img/retrato-720.jpg 720w, img/retrato-1200.jpg 1200w" sizes="(min-width: 900px) 40vw, 100vw" width="1200" height="1500" alt="Matheus Solano, de terno preto, no escritório" fetchpriority="high">
+        </picture>
+      </figure>
+      <div class="heroi__resto entra">
+        <p class="lede">Sócio do Solano, Neves &amp; Novaes Advocacia, escritório boutique de direito patrimonial em Volta Redonda. Reconstruiu o fluxo de trabalho do escritório com inteligência artificial e ensina advogados a fazer o mesmo.</p>
+        <nav class="portas" aria-label="O que você procura">
+          <a class="porta" href="#advocacia"><span>Preciso de um advogado</span><span class="porta__fio" aria-hidden="true"></span></a>
+          <a class="porta" href="#treinamento"><span>Quero treinamento em IA</span><span class="porta__fio" aria-hidden="true"></span></a>
+        </nav>
+        <div class="heroi__acoes">
+          <a class="btn" href="https://wa.me/5524998477716?text=Ol%C3%A1%2C%20Matheus.%20Cheguei%20pelo%20seu%20site%20e%20gostaria%20de%20conversar." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+            Falar no WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="sobre">
+    <div class="sec__in">
+      <div class="sec__cab"><p class="eyebrow">Sobre</p></div>
+      <div class="sobre__grid">
+        <div class="sobre__txt">
+          <p>Advogado cível com atuação concentrada em direito patrimonial. Formado pelo Centro Universitário de Barra Mansa e pela Faculdade de Direito da Fundação Escola Superior do Ministério Público do Rio Grande do Sul, integrou o NUPED (Núcleo de Pesquisa em Direito) e iniciou a carreira ainda durante a formação, na Defensoria Pública do Estado do Rio de Janeiro. Passou pela advocacia associada em escritório com mais de 15 anos de atuação e pela assessoria legislativa da Câmara Municipal de Volta Redonda antes de fundar o escritório que originou o atual Solano, Neves &amp; Novaes Advocacia, escritório boutique do qual é sócio.</p>
+          <p>Nos últimos anos, reconstruiu o próprio fluxo de trabalho com inteligência artificial, da primeira reunião com o cliente à peça protocolada e ao recurso, e transformou essa prática em método: skills, agentes e rotinas que hoje operam casos reais, todos os dias. É o criador do <strong>Método Solano</strong> e do curso <strong>Advocacia Agêntica</strong>, em que demonstra, sobre um caso verdadeiro, o que a advocacia com IA muda na prática. Escreve sobre direito patrimonial e IA na advocacia em uma <a class="link-texto" href="https://matheussolano.substack.com/" target="_blank" rel="noopener">newsletter no Substack</a>.</p>
+        </div>
+        <aside class="ficha" aria-label="Trajetória">
+          <ul>
+            <li><b>Solano, Neves &amp; Novaes Advocacia</b><span>Sócio. Fundador do escritório de origem</span></li>
+            <li><b>Câmara Municipal de Volta Redonda</b><span>Assessoria legislativa</span></li>
+            <li><b>Advocacia associada</b><span>Escritório com mais de 15 anos de atuação</span></li>
+            <li><b>Defensoria Pública do Estado do Rio de Janeiro</b><span>Início da carreira, ainda na formação</span></li>
+            <li><b>NUPED</b><span>Núcleo de Pesquisa em Direito</span></li>
+            <li><b>Formação</b><span>Centro Universitário de Barra Mansa e Faculdade de Direito da FMP-RS</span></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec sec--escura" id="atuacao">
+    <div class="sec__in">
+      <div class="sec__cab"><p class="eyebrow">Atuação</p></div>
+      <div class="cartoes">
+        <article class="cartao" id="advocacia">
+          <p class="eyebrow">Advocacia</p>
+          <h2>Solano, Neves &amp; Novaes Advocacia</h2>
+          <p>Escritório boutique em Volta Redonda, com atuação em direito patrimonial, empresarial e médico. Problemas resolvidos com estratégia, técnica e resultado.</p>
+          <div class="acoes">
+            <a class="btn" href="https://wa.me/5524998477716?text=Ol%C3%A1%2C%20Matheus.%20Cheguei%20pelo%20seu%20site%20e%20gostaria%20de%20falar%20sobre%20um%20caso." target="_blank" rel="noopener">Falar sobre um caso</a>
+            <a class="link" href="https://www.instagram.com/snnadvocacia/" target="_blank" rel="noopener">@snnadvocacia</a>
+          </div>
+        </article>
+        <article class="cartao" id="treinamento">
+          <p class="eyebrow">Treinamento de IA para advogados</p>
+          <h2>Advocacia Agêntica</h2>
+          <p>Curso que demonstra, sobre um caso real, o fluxo completo do escritório com inteligência artificial: da primeira reunião com o cliente à peça protocolada e ao recurso. A base é o Método Solano, o conjunto de skills, agentes e rotinas que operam casos reais todos os dias.</p>
+          <p class="formatos">Curso · Palestra · Treinamento in-company para escritórios e departamentos jurídicos</p>
+          <div class="acoes">
+            <a class="btn" href="https://wa.me/5524998477716?text=Ol%C3%A1%2C%20Matheus.%20Cheguei%20pelo%20seu%20site%20e%20tenho%20interesse%20no%20treinamento%20de%20IA%20para%20advogados." target="_blank" rel="noopener">Falar sobre treinamento</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="escritorio">
+    <div class="sec__in">
+      <div class="sec__cab"><p class="eyebrow">O escritório</p></div>
+      <div class="galeria">
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/escritorio-1-900.webp 900w, img/escritorio-1-1400.webp 1400w" sizes="(min-width: 900px) 33vw, 82vw">
+            <img src="img/escritorio-1-900.jpg" srcset="img/escritorio-1-900.jpg 900w, img/escritorio-1-1400.jpg 1400w" sizes="(min-width: 900px) 33vw, 82vw" width="900" height="1200" alt="Estações de trabalho do escritório, com estante de livros e plantas" loading="lazy">
+          </picture>
+        </figure>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/escritorio-2-900.webp 900w, img/escritorio-2-1400.webp 1400w" sizes="(min-width: 900px) 66vw, 82vw">
+            <img src="img/escritorio-2-900.jpg" srcset="img/escritorio-2-900.jpg 900w, img/escritorio-2-1400.jpg 1400w" sizes="(min-width: 900px) 66vw, 82vw" width="900" height="600" alt="Sala de reuniões do escritório, com mesa longa e cadeiras de couro" loading="lazy">
+          </picture>
+        </figure>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/escritorio-3-900.webp 900w, img/escritorio-3-1400.webp 1400w" sizes="(min-width: 900px) 66vw, 82vw">
+            <img src="img/escritorio-3-900.jpg" srcset="img/escritorio-3-900.jpg 900w, img/escritorio-3-1400.jpg 1400w" sizes="(min-width: 900px) 66vw, 82vw" width="900" height="600" alt="Detalhe da sala de reuniões, com painéis de madeira e quadros" loading="lazy">
+          </picture>
+        </figure>
+      </div>
+      <p class="legenda">Solano, Neves &amp; Novaes Advocacia · Volta Redonda, RJ</p>
+    </div>
+  </section>
+
+  <section class="sec contato" id="contato">
+    <div class="sec__in">
+      <div class="sec__cab"><p class="eyebrow">Contato</p></div>
+      <div class="contato__grid">
+        <h2>Fale comigo</h2>
+        <ul class="canais">
+          <li><a href="https://wa.me/5524998477716?text=Ol%C3%A1%2C%20Matheus.%20Cheguei%20pelo%20seu%20site%20e%20gostaria%20de%20conversar." target="_blank" rel="noopener"><span class="canal">WhatsApp</span><span class="valor">(24) 99847-7716</span></a></li>
+          <li><a href="https://www.instagram.com/matheus.solano_/" target="_blank" rel="noopener"><span class="canal">Instagram</span><span class="valor">@matheus.solano_</span></a></li>
+          <li><a href="https://www.linkedin.com/in/matheus-solano-advocacia" target="_blank" rel="noopener"><span class="canal">LinkedIn</span><span class="valor">matheus-solano-advocacia</span></a></li>
+          <li><a href="https://matheussolano.substack.com/" target="_blank" rel="noopener"><span class="canal">Newsletter</span><span class="valor">matheussolano.substack.com</span></a></li>
+          <li><a href="mailto:matheus@snn.adv.br"><span class="canal">E-mail</span><span class="valor">matheus@snn.adv.br</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="rodape__in">
+    <span>Matheus Solano · OAB/RJ 225.124</span>
+    <span>Volta Redonda, RJ</span>
+  </div>
+</footer>
+
+<script>
+  (function () {
+    var links = document.querySelectorAll('.trilho__nav a');
+    var alvos = [];
+    links.forEach(function (a) {
+      var el = document.querySelector(a.getAttribute('href'));
+      if (el) alvos.push({ a: a, el: el });
+    });
+    function marcar(ativo) {
+      links.forEach(function (a) { a.classList.toggle('ativo', a === ativo); });
+    }
+    if (!('IntersectionObserver' in window)) return;
+    var visiveis = new Map();
+    var obs = new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (e) { visiveis.set(e.target, e.isIntersecting ? e.intersectionRatio : 0); });
+      var melhor = null, maior = 0;
+      alvos.forEach(function (t) {
+        var r = visiveis.get(t.el) || 0;
+        if (r > maior) { maior = r; melhor = t.a; }
+      });
+      marcar(melhor);
+    }, { rootMargin: '-56px 0px -40% 0px', threshold: [0, 0.25, 0.5, 0.75, 1] });
+    alvos.forEach(function (t) { obs.observe(t.el); });
+  })();
+</script>
+</body>
+</html>
