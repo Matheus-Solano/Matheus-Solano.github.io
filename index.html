@@ -206,6 +206,7 @@
   .galeria figure { flex: 0 0 82%; scroll-snap-align: start; }
   .galeria img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
   .legenda { margin-top: 16px; font-size: 13px; color: var(--apagado); }
+  .sec__cab--fileira { margin-top: 56px; }
 
   /* Contato */
   .contato h2 { font-family: var(--display); font-weight: 500; font-size: clamp(40px, 9vw, 64px); line-height: 1; margin-bottom: 24px; }
@@ -258,6 +259,12 @@
     .galeria figure:first-child img { aspect-ratio: 3 / 4; height: 100%; }
     .galeria figure:nth-child(2), .galeria figure:nth-child(3) { grid-column: 2 / 4; }
     .galeria figure:nth-child(2) img, .galeria figure:nth-child(3) img { aspect-ratio: 3 / 1.05; }
+    /* sala de aula: turma grande à esquerda (2 colunas), quadros empilhados à direita */
+    .galeria--aula figure:first-child { grid-row: 1 / 3; grid-column: 1 / 3; }
+    .galeria--aula figure:first-child img { aspect-ratio: 3 / 2; height: 100%; }
+    .galeria--aula figure:nth-child(2), .galeria--aula figure:nth-child(3) { grid-column: 3 / 4; }
+    .galeria--aula figure:nth-child(2) img, .galeria--aula figure:nth-child(3) img { aspect-ratio: 3 / 2; }
+    .sec__cab--fileira { margin-top: 72px; }
     .contato__grid { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 72px; align-items: start; }
     .contato h2 { margin-bottom: 0; }
     .canais .valor { font-size: 30px; }
@@ -357,7 +364,7 @@
 
   <section class="sec" id="escritorio">
     <div class="sec__in">
-      <div class="sec__cab"><p class="eyebrow">O escritório</p></div>
+      <div class="sec__cab"><p class="eyebrow">No escritório</p></div>
       <div class="galeria">
         <figure>
           <picture>
@@ -378,7 +385,30 @@
           </picture>
         </figure>
       </div>
-      <p class="legenda">Solano, Neves &amp; Novaes Advocacia · Volta Redonda, RJ</p>
+      <p class="legenda">Solano, Neves &amp; Novaes Advocacia · Volta Redonda/RJ</p>
+
+      <div class="sec__cab sec__cab--fileira"><p class="eyebrow">Em sala de aula</p></div>
+      <div class="galeria galeria--aula">
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/aula-turma-900.webp 900w, img/aula-turma-1400.webp 1400w" sizes="(min-width: 900px) 66vw, 82vw">
+            <img src="img/aula-turma-900.jpg" srcset="img/aula-turma-900.jpg 900w, img/aula-turma-1400.jpg 1400w" sizes="(min-width: 900px) 66vw, 82vw" width="900" height="600" alt="Turma do curso Advocacia Agêntica em sala, vista do fundo, com Matheus Solano ao fundo junto ao projetor" loading="lazy">
+          </picture>
+        </figure>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/aula-quadro-1-900.webp">
+            <img src="img/aula-quadro-1-900.jpg" width="900" height="600" alt="Matheus Solano dando aula, diante da tela projetada" loading="lazy">
+          </picture>
+        </figure>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="img/aula-quadro-2-900.webp">
+            <img src="img/aula-quadro-2-900.jpg" width="900" height="600" alt="Matheus Solano explicando um ponto em aula, gesticulando diante da tela" loading="lazy">
+          </picture>
+        </figure>
+      </div>
+      <p class="legenda">Curso Advocacia Agêntica</p>
     </div>
   </section>
 
