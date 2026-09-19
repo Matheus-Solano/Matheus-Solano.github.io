@@ -40,6 +40,10 @@ As rotinas em nuvem do Claude (Cowork scheduled task e Routine Cloud) rodam em s
 
 **Conclusão:** hoje, o caminho garantido é a rotina **Local**, no seu próprio computador. O caminho em nuvem fica como "a testar", nunca como promessa. Se quiser tentar mesmo assim, tudo bem, mas saiba que pode não funcionar, e o motivo não é erro seu.
 
+## Nota: se a aba Code não achar a skill
+
+**[CONFIRMAR NO DESKTOP]**: não está confirmado se a aba Code enxerga skills instaladas em Customize > Skills. Se precisar, copie a pasta desta skill para `.claude\skills\djen-do-dia\SKILL.md`, dentro da pasta do escritório, e teste de novo.
+
 ---
 
 *Passo a passo do kit da imersão de 19/09/2026. Baseado em 00_VERIFICACAO_DESKTOP.md, itens 4, 7, 8, 9 e o adendo do DJEN.*

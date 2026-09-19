@@ -22,6 +22,8 @@ Antes de comecar, peca ao advogado, em bloco unico, se faltar algo:
 3. O periodo de pesquisa (ultimos 2 anos, ultimos 5 anos, ou sem limite).
 4. Se ja existe pesquisa ou dossie do caso na pasta, para ler antes de comecar.
 
+Se voce estiver rodando dentro de uma pasta de caso (com subpastas como `originais/`, `analises/` e `pecas/`) e o advogado nao disser outro caminho, grave o resultado em `analises/pesquisa_360.md`, dentro da pasta do caso.
+
 ## 3. Estrutura, fase 1: pesquisa favoravel e contraria
 
 1. Busque primeiro no acervo proprio do escritorio, se houver, depois nas plataformas abertas e nos sites oficiais dos tribunais.

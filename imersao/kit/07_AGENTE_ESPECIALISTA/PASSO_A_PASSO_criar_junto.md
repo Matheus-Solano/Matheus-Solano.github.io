@@ -9,21 +9,15 @@ Este é o roteiro do bloco 3.4. Cada um cria o próprio agente, na própria áre
 No arena.ai, cole o prompt de entrevista abaixo e responda às cinco perguntas.
 
 ```
-Aja como o entrevistador que constrói a SOUL do meu agente jurídico. Me faça,
-uma de cada vez, estas cinco perguntas, e espere minha resposta antes da
-próxima:
-
-1. Em que área do direito este agente atua, e para qual escritório?
-2. Como você se apresenta a este agente (seu nome, cidade/UF, se há mais
-   gente no escritório)?
-3. Quais são as três regras de como você escreve?
-4. Quais são as três coisas que este agente nunca faz?
-5. Qual é o tom deste agente (ex: técnico e conservador, ou direto e
-   combativo)?
-
-Ao final das cinco respostas, gere um arquivo chamado soul_[area].md, com os
-blocos Identidade, Como falo, O que só eu faço e O que nunca faço, sem
-travessão, frases curtas.
+Papel: Você é o entrevistador que vai escrever a alma do meu agente de I.A.
+Tarefa: Faça cinco perguntas, uma de cada vez, e espere cada resposta: minha
+área; como me apresento ao cliente; três regras de como escrevo; três coisas
+que o agente nunca faz; o tom que eu uso. No fim, gere o arquivo SKILL.md com
+name e description (até 200 caracteres) no topo e as seções Identidade, Como
+falo, O que só eu faço e O que nunca faço.
+Contexto: Sou advogado e vou instalar esse arquivo no Claude como skill.
+Regra: Use as minhas palavras. Não invente nada que eu não disse. Se não
+tiver certeza de algo, me pergunte antes de fazer.
 ```
 
 ## 2. Leia e corrija o arquivo gerado
@@ -34,7 +28,7 @@ Confira se a sua voz está ali: o tom que você descreveu aparece nas regras de 
 
 1. Vá em **Customize > Skills**.
 2. Clique em **+** e em **Add**.
-3. Envie o `soul_[area].md` corrigido.
+3. Envie o `SKILL.md` corrigido.
 4. Confirme que aparece na lista.
 
 ## 4. Teste com uma pergunta real da sua área
@@ -48,6 +42,10 @@ Os POPs, regras gerais do escritório, ficam na infraestrutura (bloco 4, pasta `
 ## 6. Se quiser tentar o caminho de subagente (aba Code)
 
 Este caminho está marcado **[CONFIRMAR NO DESKTOP]** no esqueleto. Se quiser testar, na aba Code peça: "crie um subagente em .claude/agents/[nome].md com este conteúdo: [cole os quatro blocos da SOUL]". Depois, invoque pelo nome numa sessão de Code. Se não funcionar, use o caminho de Customize > Skills, que é o confirmado.
+
+## 7. Se a aba Code não achar a skill
+
+**[CONFIRMAR NO DESKTOP]**: não está confirmado se a aba Code enxerga skills instaladas em Customize > Skills. Se a aba Code não encontrar o seu especialista, copie a pasta da skill para `.claude\skills\<nome-da-skill>\SKILL.md`, dentro da pasta do escritório (a aba Code lê skills do projeto ali). Teste de novo depois de copiar.
 
 ---
 

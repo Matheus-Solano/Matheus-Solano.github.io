@@ -17,29 +17,23 @@
     [ÁREA 1]/
     [ÁREA 2]/
       [teses e jurisprudência que o escritório já validou nesta área]
-  [NOME DO CLIENTE 1]/
-    [NOME DO CASO 1]/
-      originais/
-        [cópia intocada de tudo que o cliente enviou]
-      CLAUDE.md (ou "memoria.md")
-        [o prontuário deste caso: decisões, pendências, prazos, armadilhas]
-      01_transcricao_reuniao.md
-      02_extracao_forense.md
-      03_organizacao_documentos.md
-      04_pesquisa_jurisprudencia.md
-      05_viabilidade.md
-      06_proposta_honorarios.md
-      07_contrato.md
-      08_estrategia.md
-      09_requisitos_formais.md
-      10_roteiro_capitulos.md
-      11_peca_final.docx
-      12_revisao.md
-    [NOME DO CASO 2]/
-      [mesma estrutura]
-  [NOME DO CLIENTE 2]/
-    [mesma estrutura]
+  clientes/
+    marisa/
+      negativacao/
+        originais/
+          [cópia intocada de tudo que o cliente enviou]
+        analises/
+          [pesquisa de jurisprudência, viabilidade, extração forense]
+        pecas/
+          [capítulos e peça final, um arquivo por capítulo até a aprovação]
+        CLAUDE.md (ou "memoria.md")
+          [o prontuário deste caso: decisões, pendências, prazos, armadilhas]
+    [NOME DO CLIENTE 2]/
+      [NOME DO CASO 2]/
+        [mesma estrutura: originais/, analises/, pecas/]
 ```
+
+Acima, `clientes/marisa/negativacao/` é o exemplo usado no dia. Na sua pasta real, troque `clientes` pelo nome que preferir e `marisa`/`negativacao` pelo nome do cliente e do caso.
 
 ## A regra-mãe: uma pasta por caso
 

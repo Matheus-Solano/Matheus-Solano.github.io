@@ -15,7 +15,8 @@ Papel: Faça o Red Team desta petição, como advogado da ré.
 Tarefa: Liste, em ordem de perigo, o que você atacaria: fatos sem documento,
 tese fraca, jurisprudência contrária, pedido mal formulado.
 Contexto: O caso e os documentos estão nesta pasta.
-Regra: Não conserte nada. Só aponte, com o trecho exato.
+Regra: Não conserte nada. Só aponte, com o trecho exato. Se não tiver certeza
+de algo, me pergunte antes de fazer.
 ```
 
 ## Pré-Mortem
@@ -31,7 +32,8 @@ Papel: Faça o Pré-Mortem desta estratégia, como se já tivesse perdido a aç�
 Tarefa: Explique, em ordem de probabilidade, os três motivos mais prováveis
 da derrota.
 Contexto: O caso, a estratégia e os documentos estão nesta pasta.
-Regra: Não sugira correção ainda. Primeiro diga por que perdeu.
+Regra: Não sugira correção ainda. Primeiro diga por que perdeu. Se não tiver
+certeza de algo, me pergunte antes de fazer.
 ```
 
 ---

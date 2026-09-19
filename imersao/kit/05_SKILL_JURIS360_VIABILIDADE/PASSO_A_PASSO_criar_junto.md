@@ -36,7 +36,8 @@ O ponto controvertido deste caso é: [SEU PONTO CONTROVERTIDO].
 O tribunal de referência é: [SEU TRIBUNAL].
 
 Escreva o SKILL.md completo, com frontmatter name e description (até 200
-caracteres), sem travessão, frases curtas, no formato do esqueleto.
+caracteres), sem travessão, frases curtas, no formato do esqueleto. Se não
+tiver certeza de algo, me pergunte antes de fazer.
 ```
 
 ## 4. Leia o resultado antes de instalar
@@ -53,6 +54,10 @@ Confira se o Claude incluiu os marcadores [CONFIRMADO] e [NÃO VERIFICÁVEL], se
 ## 6. Rode com o ponto controvertido do seu caso
 
 Abra uma conversa nova e peça: "rode a skill jurisprudencia-360-viabilidade para o ponto controvertido [SEU PONTO]". Confira se cada julgado citado veio com o marcador certo.
+
+## Se a aba Code não achar a skill
+
+**[CONFIRMAR NO DESKTOP]**: não está confirmado se a aba Code enxerga skills instaladas em Customize > Skills. Se a aba Code não encontrar a sua skill, copie a pasta dela para `.claude\skills\jurisprudencia-360-viabilidade\SKILL.md`, dentro da pasta do escritório (a aba Code lê skills do projeto ali). Teste de novo depois de copiar.
 
 ## Comparando com o gabarito
 
