@@ -1,6 +1,6 @@
 ---
 name: djen-do-dia
-description: "Consulta a API pública do DJEN (comunicaapi.pje.jus.br) para a OAB e a UF informadas, nos últimos 7 dias, agrupa as publicações por processo, resume cada uma em duas linhas e sinaliza possível prazo. Use toda manhã, ou quando o advogado pedir para ver as publicações do dia ou da semana."
+description: "Consulta o DJEN (API pública) pela OAB e UF nos últimos 7 dias, agrupa por processo, resume em duas linhas e sinaliza possível prazo. Use toda manhã ou ao pedir as publicações."
 ---
 
 # DJEN do dia
