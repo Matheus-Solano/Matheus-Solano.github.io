@@ -1,0 +1,16 @@
+{
+  "name": "peticao-inicial-civel",
+  "version": "1.0.0",
+  "description": "Roteiro de capítulos para petição inicial cível, um capítulo por vez com gate de aprovação: qualificação, fatos, direito, tutela quando houver, pedidos, valor da causa e provas. Marca dispositivo legal com [CONFERIR] e nunca inventa fato.",
+  "author": {
+    "name": "Kit da Imersão 19/09/2026"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "direito",
+    "peticao-inicial",
+    "civel",
+    "juridico",
+    "advocacia"
+  ]
+}

@@ -1,0 +1,26 @@
+[ARQUIVO SIMULADO PARA AULA. Este .txt descreve o conteúdo de uma foto que, no caso real, seria IMG_2031.jpg]
+
+IMG_2031.jpg
+Recebido no WhatsApp em 16/09/2026, 21h47, pela cliente.
+Tamanho aparente: 1,8 MB. Orientação: retrato, torta, cerca de 12 graus inclinada para a direita.
+
+O QUE A FOTO MOSTRA
+
+Foto de uma tela de celular tirada com outro celular. A tela exibe o aplicativo de um banco, na área de simulação de crédito. Reflexo de lâmpada no canto superior direito atrapalha a leitura de duas linhas.
+
+Texto legível na tela fotografada:
+
+    "Não foi possível continuar com a sua simulação.
+     Restrição encontrada em consulta a birô de crédito.
+     Procure o credor para regularizar."
+
+Abaixo, um bloco cinza com o que parece ser o resumo da consulta. A parte de baixo da tela está CORTADA na foto: aparece apenas o começo de uma linha,
+
+    "Origem da restrição: REDE IPÊ TELEC..."
+
+e o restante não aparece, porque a foto cortou o rodapé da tela.
+
+Data e hora visíveis no topo da tela fotografada: 16/09/2026, 21h44.
+
+DEFEITO DIDÁTICO DESTE ARQUIVO
+Foto torta e com a parte de baixo cortada. Serve para mostrar que a restrição existe e que o cliente descobriu no banco, mas NÃO serve como prova do valor nem da data da negativação. Para isso é preciso o print do Serasa.
