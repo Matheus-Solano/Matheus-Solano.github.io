@@ -40,7 +40,7 @@ Antes de tudo, se você ainda não tem esta pasta: abra **matheus-solano.github.
 
 ## Se você não trouxe o modelo de peça do seu escritório
 
-Use o caso de consumidor completo, entregue à parte pelo instrutor, como base para a sua skill.
+Use `modelo_inicial_consumidor.docx`, do caso da sala (`10_CASO_DA_SALA`), como base para a sua skill.
 
 ---
 

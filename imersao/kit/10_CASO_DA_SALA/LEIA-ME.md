@@ -5,3 +5,7 @@ A cliente é Marisa Andrade Ferreira, professora aposentada, que teve o nome neg
 ## Onde colar
 
 Copie esta pasta `10_CASO_DA_SALA` inteira para `clientes/marisa/negativacao/`, na sua pasta de escritório. Os documentos brutos (a subpasta `00_ENTRADA_BRUTA`) vão para `originais/`, sem alteração nenhuma.
+
+## Se você não trouxe modelo de peça
+
+Use `modelo_inicial_consumidor.docx`, desta mesma pasta, como modelo para construir a sua skill.

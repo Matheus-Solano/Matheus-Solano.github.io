@@ -19,6 +19,10 @@
 - `04_pesquisa-jurisprudencia_2026-09-19.md`
 - `11_peca-final_2026-09-22.docx`
 
+## Exceção: arquivo padrão gerado por skill
+
+Arquivos padrão que uma skill sempre gera com o mesmo nome ficam fora deste padrão, por exemplo `analises/pesquisa_360.md`, `pecas/inicial_fatos.md`, `resumo.md` e `modelo_peca.md`. A regra `[NUMERO]_[TIPO-DO-DOCUMENTO]_[DATA]` vale para os documentos do caso, originais e versões protocoladas, não para esses arquivos de trabalho de nome fixo.
+
 ## Regras
 
 1. Nunca renomeie o arquivo original dentro de `originais/`. O nome padronizado é só para a cópia de trabalho.

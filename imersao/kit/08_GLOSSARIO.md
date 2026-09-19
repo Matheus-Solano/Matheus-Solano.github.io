@@ -14,7 +14,7 @@
 
 **MCP, o conector.** É um adaptador de tomada. O seu agente pluga numa ferramenta externa em vez de responder de memória. Se responde de memória, ele lembra. Se responde pela tomada, ele consulta.
 
-**Plugin.** É como uma skill mais elaborada, com mais ferramentas dentro. Se a skill é um profissional com o próprio POP, o plugin é o departamento inteiro, com todos os POPs.
+**Plugin.** É como uma skill mais elaborada, com mais ferramentas dentro. Se a skill cuida de uma tarefa, o plugin é o departamento inteiro.
 
 **Subagente.** É o modelo chamando, dentro dele mesmo, pequenos funcionários com contexto menor para resolver uma tarefa específica. Diminui o tempo e melhora a qualidade.
 
@@ -28,13 +28,13 @@
 
 **CLAUDE.md, o arquivo de memória.** É o memorial de instruções que você deixaria fixado na parede para um estagiário novo. Ele lê antes de tocar em qualquer processo.
 
-**SOUL.** É a alma do agente: a personalidade, o jeito de atuar, a voz do escritório, por escrito, não na cabeça de alguém.
+**SOUL.** É a alma pessoal de um agente: a personalidade, o jeito de atuar, o tom, por escrito, não na cabeça de alguém.
 
-**POP do agente.** São os procedimentos operacionais padrão do seu agente: como ele deve trabalhar, e o que ele não pode fazer de jeito nenhum. São os guard raios.
+**POP.** É o procedimento operacional padrão, a regra geral do escritório, de uma área ou de uma ação. Vale para todos os agentes e mora na infraestrutura, não dentro de uma skill só.
 
 **Guard raios (guardrails).** Os limites escritos do agente. Por exemplo: nunca inventar jurisprudência, nunca citar sem conferir, nunca expor dado de cliente.
 
-**Skill.** É uma habilidade que você dá ao seu agente, um conjunto de instruções pré-definidas para que ele repita a mesma tarefa, do mesmo jeito, todas as vezes. É o POP do escritório escrito para a máquina.
+**Skill.** É uma habilidade que você dá ao seu agente, um conjunto de instruções pré-definidas para que ele repita a mesma tarefa, do mesmo jeito, todas as vezes.
 
 **One shot (um tiro só).** É pedir tudo de uma vez, e esperar que a IA vomite a peça pronta para só conferir e protocolar. Nunca funciona bem. Nada em um tiro só.
 

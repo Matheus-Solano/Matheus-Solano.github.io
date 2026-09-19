@@ -6,7 +6,7 @@ Este é o roteiro do bloco 3.1. Você não abre o SKILL.md pronto agora. Você c
 
 ## 1. Abra o esqueleto
 
-Abra `03_SKILL_ESQUELETO\SKILL.md` (a mesma pasta acima) e `03_KIT_DRIVE\03_STARTER_PACK\pesquisa-jurisprudencia-360\SKILL.md`, do Starter Pack. O primeiro dá a forma, o segundo dá o conteúdo de pesquisa que você vai herdar.
+Abra `03_SKILL_ESQUELETO\SKILL.md` (a mesma pasta acima). Ele dá a forma. O conteúdo de pesquisa você constrói junto com o Claude, no passo seguinte.
 
 ## 2. Diga ao Claude o ponto controvertido do seu caso
 
@@ -18,9 +18,7 @@ Copie, ajuste o que estiver entre colchetes e cole no Chat ou no Cowork:
 
 ```
 Aja como o meu redator de skills. Use o esqueleto em 03_SKILL_ESQUELETO/SKILL.md
-como forma e o conteúdo de pesquisa de
-03_KIT_DRIVE/03_STARTER_PACK/pesquisa-jurisprudencia-360/SKILL.md como base de
-processo de busca. Crie uma skill chamada "jurisprudencia-360-viabilidade" que:
+como forma. Crie uma skill chamada "jurisprudencia-360-viabilidade" que:
 
 1. recebe um ponto controvertido e pesquisa jurisprudência favorável e contrária,
    em ordem de autoridade dos tribunais (STF, STJ, TST, TJs, TRFs);
